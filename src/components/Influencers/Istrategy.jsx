@@ -1,0 +1,57 @@
+const IStrategy = () => {
+    return (
+      <div className="py-12 mx-auto mt-10 text-center bg-white 2xl:container">
+        <h2 className="mb-8 text-4xl font-bold">
+        Comprehensive Solutions from Planning to Analysis
+        </h2>
+        <div className="w-[90%] mx-auto grid md:grid-cols-3 gap-12 text-left">
+          <div className="flex flex-col p-6 rounded-lg">
+            <div className="flex flex-col items-center justify-center gap-3">
+              <img
+                src="https://ik.imagekit.io/varsh0506/Internship/budget.png?updatedAt=1727034847785"
+                className="h-20"
+              />
+              <h3 className="mb-2 text-xl font-semibold text-center text-[#5151d6]">
+              Budget with Confidence and Precision
+              </h3>
+            </div>
+            <p className="text-center">
+            Allocate your influencer marketing budget wisely. Discover influencer costs, assess their value, and predict your potential reach to make informed financial choices for your campaigns.
+            </p>
+          </div>
+          <div className="flex flex-col p-6 rounded-lg">
+            <div className="flex flex-col items-center justify-center gap-3">
+              <img
+                src="https://ik.imagekit.io/varsh0506/Internship/fast.png?updatedAt=1727034881956"
+                alt="icon 2"
+                className="h-20"
+              />
+              <h3 className="mb-2 text-xl font-semibold text-center text-[#5151d6]">
+              Enhance Influencer Effectiveness with Insights
+              </h3>
+            </div>
+            <p className="text-center">
+            Boost your campaign ROI by identifying the ideal influencers for your brand and target audience. Strategically plan and execute your next campaign using actionable performance metrics.
+            </p>
+          </div>
+          <div className="flex flex-col p-6 rounded-lg">
+            <div className="flex flex-col items-center justify-center gap-3">
+              <img
+                src="https://ik.imagekit.io/varsh0506/Internship/optimization.png?updatedAt=1727034951067"
+                alt="icon 3"
+                className="h-20"
+              />
+              <h3 className="mb-2 text-xl font-semibold text-center text-[#5151d6]">
+              Stay Agile with Influencer Marketing Trends
+              </h3>
+            </div>
+            <p className="text-center">
+            Refine your campaign strategy using up-to-date trends and insights. Tailor your approach to align with market movements and the strategies of brands similar to yours.
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  };
+  
+  export default IStrategy;
